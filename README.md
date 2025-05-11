@@ -17,10 +17,17 @@ The system analyzes historical football match data, engineers relevant features,
 
 ## Setup
 
-Create and activate a Python virtual environment:
+1. Create and activate a Python virtual environment:
 
 ```bash
 make env
+source venv/bin/activate
+```
+
+2. Install required dependencies:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Usage
